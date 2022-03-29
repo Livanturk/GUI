@@ -1,4 +1,3 @@
-#Importing required libraries
 from tkinter import *
 
 def UserLogin(username,password):
@@ -24,10 +23,6 @@ pwentry.grid(row=1,column=1)
 
 button = Button(root,text="Login",command=lambda:UserLogin(username,password))
 button.grid(row=4,column=0)
-
-label = Label(root,text="Welcome!")
-label.grid(row=5,column=0)
-
 root.mainloop()
 
 
