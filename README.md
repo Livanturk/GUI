@@ -1,2 +1,3 @@
 # GUI
-School-time amateur projects
+School-time amateur studies
+
